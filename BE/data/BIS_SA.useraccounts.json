@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "68d92ddbae4371269e9f5869"
+  },
+  "username": "admin.user",
+  "password": "$2b$10$MwmJadIRUyN0FvGqHUtzyeWJHcUOmmaR4O4XRZ.InaeeEK9iSbzbq",
+  "employee": {
+    "$oid": "66d12345678901234567890b"
+  },
+  "role": {
+    "$oid": "68d92d3d5a93fc4e7204db27"
+  },
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-09-28T12:45:15.141Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-28T12:45:15.141Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d92faccaa7f8f2b6a1fa2e"
+  },
+  "username": "NTZ",
+  "password": "$2b$10$fUhkHWVAfZtfc3hflHMJt.zO8BtInwNY6oSPr2siAVim77TQV.kW2",
+  "employee": {
+    "$oid": "66d12345678901234567890b"
+  },
+  "role": {
+    "$oid": "68d92c905a93fc4e7204db24"
+  },
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-09-28T12:53:00.292Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-28T12:53:00.292Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68daa739f7747847e5a3c175"
+  },
+  "username": "kkk",
+  "password": "$2b$10$t/aa98S3JrygEsoPqPmg0uedI8abMOrtaxlqa4ZGDoQqEPhAx6mBG",
+  "employee": {
+    "$oid": "66d12345678901234567890b"
+  },
+  "role": {
+    "$oid": "68d92d3d5a93fc4e7204db27"
+  },
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-09-29T15:35:21.265Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T15:35:21.265Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68db585f112cd5a703455ef4"
+  },
+  "username": "ggg112",
+  "password": "$2b$10$EHfjiNGTjsmeVQJnR58cGeOOu8J8HOZTM/rA93c.nKMqEkDn128JW",
+  "employee": {
+    "$oid": "66d12345678901234567890b"
+  },
+  "role": {
+    "$oid": "68d92d3d5a93fc4e7204db27"
+  },
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-09-30T04:11:11.313Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-30T04:11:11.313Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68db58bdf4557ecf6506ecd0"
+  },
+  "username": "ggg123",
+  "password": "$2b$10$j3WEIQS8Ac7Cq2ZbSEB4heTSp9LWHvgE0p0AHwlrhdhky.T9PNZxq",
+  "employee": {
+    "$oid": "66d12345678901234567890b"
+  },
+  "role": {
+    "$oid": "68d92d3d5a93fc4e7204db27"
+  },
+  "status": "Active",
+  "createdAt": {
+    "$date": "2025-09-30T04:12:45.461Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-30T04:12:45.461Z"
+  },
+  "__v": 0
+}]

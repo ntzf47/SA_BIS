@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "68da9bec19d7543314703d81"
+  },
+  "name": "แผนกบัญชีและการเงิน",
+  "organization": {
+    "$oid": "68d9305348fa0b9c29c6fec5"
+  },
+  "maxHeadcount": 10,
+  "currentHeadcount": 0,
+  "createdAt": {
+    "$date": "2025-09-29T14:47:08.524Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T14:47:08.524Z"
+  },
+  "__v": 0
+}]

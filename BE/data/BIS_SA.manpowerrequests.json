@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "68da9dd819d7543314703d99"
+  },
+  "requestNo": "MR-720161",
+  "department": {
+    "$oid": "68da9bec19d7543314703d81"
+  },
+  "position": {
+    "$oid": "68da9c6019d7543314703d89"
+  },
+  "requestType": "Replacement",
+  "requestedHeadcount": 1,
+  "employmentType": "Permanent",
+  "reason": "ทดแทนพนักงานที่ลาออก",
+  "status": "Rejected",
+  "createdBy": {
+    "$oid": "68d92faccaa7f8f2b6a1fa2e"
+  },
+  "approvedHeadcount": 1,
+  "requestDate": {
+    "$date": "2025-09-29T14:55:20.161Z"
+  },
+  "createdAt": {
+    "$date": "2025-09-29T14:55:20.162Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T15:09:45.293Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68df5a62bedac8be53fff39a"
+  },
+  "requestNo": "MR-130361",
+  "department": {
+    "$oid": "68da9bec19d7543314703d81"
+  },
+  "position": {
+    "$oid": "68da9c6019d7543314703d89"
+  },
+  "requestType": "Replacement",
+  "requestedHeadcount": 1,
+  "employmentType": "Permanent",
+  "reason": "ทดแทนพนักงานที่ลาออก",
+  "status": "WaitingApproval",
+  "createdBy": {
+    "$oid": "68df59b2bedac8be53fff38f"
+  },
+  "approvedHeadcount": 0,
+  "requestDate": {
+    "$date": "2025-10-03T05:08:50.361Z"
+  },
+  "createdAt": {
+    "$date": "2025-10-03T05:08:50.362Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-03T05:08:50.362Z"
+  },
+  "__v": 0
+}]

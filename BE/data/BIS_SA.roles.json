@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "68d92c905a93fc4e7204db24"
+  },
+  "name": "Admin",
+  "description": "System Administrator",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d92d3d5a93fc4e7204db27"
+  },
+  "name": "Employee",
+  "description": "System Administrator",
+  "__v": 0
+}]

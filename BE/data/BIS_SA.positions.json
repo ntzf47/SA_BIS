@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "68da9c4919d7543314703d85"
+  },
+  "title": "Senior Accountant",
+  "department": {
+    "$oid": "66d12345678901234567890e"
+  },
+  "description": "จัดทำงบประมาณ",
+  "createdAt": {
+    "$date": "2025-09-29T14:48:41.367Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T14:48:41.367Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68da9c6019d7543314703d89"
+  },
+  "title": "Senior Accountant",
+  "department": {
+    "$oid": "68da9bec19d7543314703d81"
+  },
+  "description": "จัดทำงบประมาณ",
+  "createdAt": {
+    "$date": "2025-09-29T14:49:04.628Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T14:49:04.628Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "68daa41d928b76416e8492b9"
+  },
+  "firstName": "พัชรา",
+  "lastName": "พนักงานใหม่",
+  "department": {
+    "$oid": "68da9bec19d7543314703d81"
+  },
+  "position": {
+    "$oid": "66d12345678901234567890f"
+  },
+  "employmentType": "Permanent",
+  "hireDate": {
+    "$date": "2025-01-01T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-09-29T15:22:05.114Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T15:25:23.957Z"
+  },
+  "fullName": "พัชรา พนักงานใหม่",
+  "__v": 0,
+  "resignDate": {
+    "$date": "2025-09-29T15:25:23.955Z"
+  }
+}]

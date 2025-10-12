@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "68daa08f3870e868075095dd"
+  },
+  "request": {
+    "$oid": "68da9dd819d7543314703d99"
+  },
+  "approver": {
+    "$oid": "68d92faccaa7f8f2b6a1fa2e"
+  },
+  "approvalDate": {
+    "$date": "2025-09-29T15:06:55.281Z"
+  },
+  "status": "Approved",
+  "comment": "Approve Success!",
+  "level": 1,
+  "createdAt": {
+    "$date": "2025-09-29T15:06:55.286Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T15:06:55.286Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68daa0eb3b99bc1d2e1676d5"
+  },
+  "request": {
+    "$oid": "68da9dd819d7543314703d99"
+  },
+  "approver": {
+    "$oid": "68d92faccaa7f8f2b6a1fa2e"
+  },
+  "approvalDate": {
+    "$date": "2025-09-29T15:08:27.702Z"
+  },
+  "status": "Approved",
+  "comment": "Approve Success!",
+  "level": 1,
+  "createdAt": {
+    "$date": "2025-09-29T15:08:27.707Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T15:08:27.707Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68daa1393b99bc1d2e1676da"
+  },
+  "request": {
+    "$oid": "68da9dd819d7543314703d99"
+  },
+  "approver": {
+    "$oid": "68d92faccaa7f8f2b6a1fa2e"
+  },
+  "approvalDate": {
+    "$date": "2025-09-29T15:09:45.290Z"
+  },
+  "status": "Rejected",
+  "level": 99,
+  "createdAt": {
+    "$date": "2025-09-29T15:09:45.291Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T15:09:45.291Z"
+  },
+  "__v": 0
+}]

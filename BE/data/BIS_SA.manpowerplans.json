@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "68da9cd119d7543314703d8d"
+  },
+  "department": {
+    "$oid": "68da9bec19d7543314703d81"
+  },
+  "position": {
+    "$oid": "68da9c6019d7543314703d89"
+  },
+  "year": 2025,
+  "plannedHeadcount": 3,
+  "currentHeadcount": 1,
+  "createdAt": {
+    "$date": "2025-09-29T14:50:57.441Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-29T14:50:57.441Z"
+  },
+  "__v": 0
+}]
