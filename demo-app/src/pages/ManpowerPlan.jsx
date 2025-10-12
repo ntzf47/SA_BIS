@@ -311,9 +311,22 @@ function ManpowerPlan() {
           </Button>
         </Container>
 
-        <Dialog open={dialogOpen} onClose={handleCloseDialog} maxWidth="sm" fullWidth>
-          <DialogTitle>{isEditMode ? "Edit Manpower Plan" : "Add Manpower Plan"}</DialogTitle>
-          <DialogContent>
+        <Dialog 
+          open={dialogOpen} 
+          onClose={handleCloseDialog} 
+          maxWidth="sm" 
+          fullWidth
+          PaperProps={{
+            sx: {
+              bgcolor: "#1e3c72",
+              color: "white"
+            }
+          }}
+        >
+          <DialogTitle sx={{ borderBottom: '1px solid rgba(255, 255, 255, 0.1)' }}>
+            {isEditMode ? "Edit Manpower Plan" : "Add Manpower Plan"}
+          </DialogTitle>
+          <DialogContent sx={{ mt: 2 }}>
             <FormControl fullWidth margin="normal">
               <InputLabel>Department</InputLabel>
               <Select
@@ -321,6 +334,19 @@ function ManpowerPlan() {
                 value={formData.department}
                 onChange={handleFormChange}
                 label="Department"
+                MenuProps={{
+                  PaperProps: {
+                    sx: {
+                      bgcolor: '#1e3c72',
+                      '& .MuiMenuItem-root': {
+                        color: 'white',
+                        '&:hover': {
+                          bgcolor: '#2a4d8f'
+                        }
+                      }
+                    }
+                  }
+                }}
               >
                 {departments.map((dept) => (
                   <MenuItem key={dept._id} value={dept._id}>{dept.name}</MenuItem>
@@ -334,6 +360,19 @@ function ManpowerPlan() {
                 value={formData.position}
                 onChange={handleFormChange}
                 label="Position"
+                MenuProps={{
+                  PaperProps: {
+                    sx: {
+                      bgcolor: '#1e3c72',
+                      '& .MuiMenuItem-root': {
+                        color: 'white',
+                        '&:hover': {
+                          bgcolor: '#2a4d8f'
+                        }
+                      }
+                    }
+                  }
+                }}
               >
                 {positions.map((pos) => (
                   <MenuItem key={pos._id} value={pos._id}>{pos.title}</MenuItem>
