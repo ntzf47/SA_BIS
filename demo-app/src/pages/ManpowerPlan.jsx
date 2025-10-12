@@ -216,7 +216,6 @@ function ManpowerPlan() {
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Manpower Plan
             </Typography>
-            <Button component={Link} to="/dashboard" color="inherit">Dashboard</Button>
             <Typography variant="body1" sx={{ mr: 2, ml: 2 }}>
               Welcome, {user?.fullName} ({user?.position} - {user?.department})
             </Typography>
@@ -289,6 +288,27 @@ function ManpowerPlan() {
               </TableContainer>
             )}
           </Paper>
+        </Container>
+
+        <Container maxWidth="lg" sx={{ display: 'flex', justifyContent: 'flex-start', mt: 2, mb: 4 }}>
+          <Button
+            component={Link}
+            to="/dashboard"
+            variant="contained"
+            sx={{
+              backgroundColor: '#90CAF9',
+              color: 'black',
+              '&:hover': {
+                backgroundColor: '#64B5F6'
+              },
+              textTransform: 'none',
+              fontSize: '1rem',
+              py: 1,
+              px: 4
+            }}
+          >
+            BACK TO DASHBOARD
+          </Button>
         </Container>
 
         <Dialog open={dialogOpen} onClose={handleCloseDialog} maxWidth="sm" fullWidth>
